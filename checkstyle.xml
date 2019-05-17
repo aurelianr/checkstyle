@@ -247,6 +247,7 @@ page at http://checkstyle.sourceforge.net/config.html -->
             <property name="max" value="160" />
             <property name="severity" value="error" />
             <property name="ignorePattern" value="^\s*\*\s*\S+$" />
+            <property name="ignorePattern" value="^\t*\*\t*\t+$" />            
             <!--
               The default ignore pattern exempts the following elements:
                 - import statements
