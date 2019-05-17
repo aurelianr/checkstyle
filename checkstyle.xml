@@ -244,9 +244,9 @@ page at http://checkstyle.sourceforge.net/config.html -->
 
         <module name="LineLength">
             <!-- Checks if a line is too long. -->
-            <property name="max" value="160" default="160" />
+            <property name="max" value="160" />
             <property name="severity" value="error" />
-
+            <property name="ignorePattern" value="^\s*\*\s*\S+$" />
             <!--
               The default ignore pattern exempts the following elements:
                 - import statements
